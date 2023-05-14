@@ -1,0 +1,132 @@
+<html>
+<head>
+  <tittle></tittle>
+  <link href="responsive.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <link href="slide.css" rel="stylesheet" type="text/css">
+  <link href="topic.css" rel="stylesheet" type="text/css">
+  <link href="footer.css" rel="stylesheet" type="text/css">
+  <link href="vegthali2.css" rel="stylesheet" type="text/css">
+  <link href="order2.css" rel="stylesheet" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.23.0/axios.min.js"
+    integrity="sha512-Idr7xVNnMWCsgBQscTSCivBNWWH30oo/tzYORviOCrLKmBaRxRflm2miNhTFJNVmXvCtzgms5nlJF4az2hiGnA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"> </script>
+</head>
+
+<body>
+  <div class="new">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fa fa-bars"></i></label>
+    <ul>
+      <li><a class="active" href="index.html">home</a></li>
+      <li><a href="about2.html">about us</a></li>
+      <li><a href="#">menu
+          <i class="fa fa-caret-down"></i></a>
+        <ul>
+          <li><a href="vegthali2.html">veg thali</a></li>
+          <li><a href="nonveg2.html">non veg thali</a></li>
+          <li><a href="pasta2.html">pasta</a></li>
+          <li><a href="fast2.html">fast food</a></li>
+          <li><a href="chatt2.html">chatt</a></li>
+        </ul>
+      </li>
+      <li><a href="order2.html">order</a></li>
+      <li><a href="contact2.html">contact us</a></li>
+    </ul>
+  </div>
+  <h1> Enter order detail</h1><br>
+  <center>
+    <table border=2px; width=60%>
+      <tr>
+        <td>name:
+        <td><input class="inp_name" type="text" placeholder="name"></td>
+      </tr>
+      <td>Email:</td>
+      <td><input type="text" class="inp_email" placeholder="Email"></td>
+      </tr>
+      <td>mobileno</td>
+      <td><input type="text" class="inp_mobile" placeholder="mobile no">
+        </tr>
+      <td>item name</td>
+      <td><select class="inp_item">
+          <option>veg thali</option>
+          <option> non veg thali</option>
+          <option>pasta</option>
+          <option>Fast food</option>
+          <option>Chatt</option>
+        </select>
+        </tr>
+      <td>quantity</td>
+      <td><select class="inp_quantity">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+        </select></tr>
+      <td>price</td>
+      <td><input type="text" class="inp_price" placeholder="price">
+        </tr>
+      <td>address</td>
+      <td> <textarea class="inp_address" placeholder="address"></textarea>
+        </tr>
+      </td>
+      <tr>
+        <td align="center" colspan="2">
+          <button class="btn" onclick="submit()">submit</button>
+      </tr>
+      </td>
+  </center>
+  </table><br>
+  <br>
+  <br>
+  </div>
+
+  <div class="footer">
+    <div class="footerb"> <b>quick link</b>
+      <br><br><br>
+      home<br>
+      about<br>
+      menu<br>
+      order<br>
+      contact<br>
+    </div>
+    <div class="footerb">
+      <b>menu</b>
+      <br><br><br>
+      veg thali<br>
+      non veg thali<br>
+      fast food<br>
+      pizza<br>
+      pasta<br>
+    </div>
+
+    <div class="footerb">
+      <b>address</b>
+      <br><br><br>
+      Address:<br>
+      120, hatikhal<br>
+
+      mobile:9719664795<br>
+      time:9:00pm AM to 5:00 PM<br>
+    </div>
+
+    <div class="footerb"><b>directions</b><br><br>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3482.2900622209945!2d79.53185851457346!3d29.215021464230322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a09aea097c3d4d%3A0x30a88e2a7f31d4e4!2sHaldwani!5e0!3m2!1sen!2sin!4v1621965774889!5m2!1sen!2sin"
+        width="100%" height="130px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+  <!--code for footer-->
+</body>
+<html>

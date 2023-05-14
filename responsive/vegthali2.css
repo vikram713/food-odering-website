@@ -1,0 +1,88 @@
+.price{
+    border:0px solid black;
+    display:flex;
+justify-content: space-around;
+
+    
+}
+.item{
+    border:0px solid red;
+    height:300px;
+    width: 370px;
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px #f3f3f3;
+    transition:transform 1s;
+}
+.item:hover{
+    transform:scale(1.07);
+}
+.item img{
+    width:100%;
+}
+.checked{
+    color: orange;
+}
+.code{
+    border:0px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:20px;
+    line-height: 10px;
+ }
+ .mart p{
+    text-align: center;
+    font-size:18px;
+}
+.mart b{
+    color: green;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+.btn{
+    border:0px solid green;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    
+
+}
+.btn input{
+    background-color: orange;
+    height: 40px;
+    width:120px;
+    border-radius: 7px;
+    border: 0px;
+}
+.btn input:hover{
+    background-color: green;
+    color: #f3f3f3;
+}
+@media(max-width:767px){
+    .item{
+        width: 360px;
+        height: auto; 
+    }
+    .item img{
+        border: 3px solid white;
+        margin-top: 2px;
+        width: 100%;
+        height: auto;
+    }.mart p{
+        font-size: 15px;
+        font-weight: 600px;
+    }
+    .mart b{
+        font-size:17px;
+    }
+    .price{
+        height: 190px;
+        width: auto;
+    }
+}
